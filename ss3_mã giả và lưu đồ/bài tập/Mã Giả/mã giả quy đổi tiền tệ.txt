@@ -1,0 +1,6 @@
+    Begin
+         input A là số tiền VND
+         B=A/23000
+         Display B
+          
+    End.

@@ -1,0 +1,14 @@
+    Begin
+         input A
+         input B
+         input C
+      IF A>B And A>C
+         Display "A lớn nhất"
+      Else IF B>A And B>C
+           Display "B lớn nhất"
+           Else IF C>A And C>B
+                Display "C lớn nhất"
+		End IF
+	   End IF
+       End IF
+    End.

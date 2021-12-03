@@ -1,0 +1,8 @@
+    Begin
+         input A là điểm toán
+         input B là điểm lý
+         input C là điểm hóa
+         D=(A+B+C)/2
+     Display D
+          
+    End.

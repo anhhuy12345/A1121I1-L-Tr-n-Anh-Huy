@@ -1,0 +1,12 @@
+Begin
+    Input N
+    Input a1,a2,...aN
+    Max=a1 and i>=2
+    If ai=aN then
+       Output Max=ai
+    Else While ai>Max
+   	       Do ai=ai+1
+               End do
+         Output Max=ai
+    End If
+End
