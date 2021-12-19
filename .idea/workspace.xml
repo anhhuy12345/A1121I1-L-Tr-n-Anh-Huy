@@ -21,18 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c74053f4-0a4c-4868-b0fc-67a624548de6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML FORM và Table/Bài Tập/Bài tập tạo forrm cơ bản.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML FORM và Table/Thực Hành/SimpleForm.HTML.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML FORM và Table/Thực Hành/search.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Html/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Html/.idea/Html.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Html/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Html/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Html/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Html/Bài tập/Bài Tập tạo CV cá nhân.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Html/Bài tập/Bài tập tạo Form dơn giản.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Html/Bài tập/Tạo Danh Sách.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Html/Bài tập/bài thực hành demo html.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +60,7 @@
       <updated>1638800015190</updated>
       <workItem from="1638800016989" duration="92000" />
       <workItem from="1639032086638" duration="41000" />
-      <workItem from="1639032140538" duration="23687000" />
+      <workItem from="1639032140538" duration="25422000" />
     </task>
     <servers />
   </component>

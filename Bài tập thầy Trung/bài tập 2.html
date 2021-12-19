@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài tập trời mưa ngâu</title>
+</head>
+<body>
+<h2>Thay đổi nội dung của thẻ HTML</h2>
+<div id="content" style="padding: 20px; background: blue; color: white; margin: 40px 0px;">
+    Hôm nay thời tiết như thế nào.
+</div>
+<input type="button" id="btn1" value="Trời nắng"/>
+<input type="button" id="btn2" value="Trời mưa"/>
+<script language="javascript">
+
+    var button1 = document.getElementById("btn1");
+    var button2 = document.getElementById("btn2");
+    var div = document.getElementById('content');
+
+    button1.onclick = function(){
+        div.innerHTML = 'Hôm nay trời nắng đẹp';
+    };
+
+    button2.onclick = function(){
+        div.innerHTML = 'Hôm nay trời mưa ngâu';
+    };
+
+</script>
+</body>
+</html>
