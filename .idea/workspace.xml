@@ -1,10 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="c74053f4-0a4c-4868-b0fc-67a624548de6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Module1.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Html/Bài tập/search.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML FORM và Table/Bài Tập/Bài tập tạo forrm cơ bản.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML FORM và Table/Thực Hành/SimpleForm.HTML.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML FORM và Table/Thực Hành/search.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Html/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Html/.idea/Html.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Html/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Html/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Html/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Html/Bài tập/Bài Tập tạo CV cá nhân.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Html/Bài tập/Bài tập tạo Form dơn giản.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Html/Bài tập/Tạo Danh Sách.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Html/Bài tập/bài thực hành demo html.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,17 +72,36 @@
       <updated>1638800015190</updated>
       <workItem from="1638800016989" duration="92000" />
       <workItem from="1639032086638" duration="41000" />
-      <workItem from="1639032140538" duration="3227000" />
+      <workItem from="1639032140538" duration="23687000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
     <state x="560" y="178" key="FileChooserDialogImpl" timestamp="1638800101575">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="560" y="178" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1638800101575" />
+    <state x="437" y="201" key="run.anything.popup" timestamp="1639576262487">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="437" y="201" key="run.anything.popup/0.0.1536.864@0.0.1536.864" timestamp="1639576262487" />
+    <state x="443" y="185" width="672" height="678" key="search.everywhere.popup" timestamp="1639136533108">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="443" y="185" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1639136533108" />
   </component>
 </project>
