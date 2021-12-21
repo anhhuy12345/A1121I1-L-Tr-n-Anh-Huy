@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h2>Lấy giá trị của thẻ HTML bằng Javascript</h2>
+<p> Bạn tên gì? <input type="textbox" id="Tên"></p>
+<p>Chọn sở thích của bạn</p>
+<input type="checkbox" name="hobby" value="Đi chơi"/> <label>Đi chơi</label> <br/>
+<input type="checkbox" name="hobby" value="Đi du lịch"/> <label>Đi du lịch</label> <br/>
+<input type="checkbox" name="hobby" value="Đi ăn"/> <label>Đi ăn</label> <br/>
+<input type="checkbox" name="hobby" value="Đi siêu thị"/> <label>Đi siêu thị</label> <br/>
+<input type="checkbox" name="hobby" value="học lập trình"/> <label>học lập trình</label> <br/>
+<br/> <br/>
+
+<input type="button" id="btn" value="Xem kết quả"/>
+
+<script>
+    document.getElementById('btn').onclick = function()
+    {
+        var checkbox = document.getElementsByName('hobby');
+        var result = "";
+        for (var i = 0; i < checkbox.length; i++){
+            if (checkbox[i].checked === true){
+                result += ' [' + checkbox[i].value + ']';
+            }
+        }
+        alert("Sở thích của " + document.getElementById("Tên").value+" là:" + result);
+    };
+</script>
+
+</body>
+</html>
