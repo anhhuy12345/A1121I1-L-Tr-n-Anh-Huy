@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bài tập biến kiểu dữ liệu và toán tử -bài 1</title>
+</head>
+<body>
+<h3>Bài 1</h3>
+<form action="#" method="post">
+    <label for="vat_ly">Điểm môn Vật Lý</label>
+    <input type="number" id="vat_ly" name="vat_ly" max="10"><br>
+    <label for="hoa">Điểm môn Hóa</label>
+    <input type="number" id="hoa" name="hoa"><br>
+    <label for="sinh_hoc">Điểm môn Sinh Học</label>
+    <input type="number" id="sinh_hoc" name="sinh_hoc"><br>
+    <button type="button" onclick="kiem_tra();">Kiểm tra</button>
+    <div id="ket_qua"></div>
+</form>
+<script>
+    function kiem_tra()
+    {let vatLy = parseFloat(document.getElementById('vat_ly').value);
+        let Hoa = parseFloat(document.getElementById('hoa').value);
+        let sinhHoc = parseFloat(document.getElementById('sinh_hoc').value);
+        let tong = vatLy+Hoa+sinhHoc;
+        let trungBinh = tong/3;
+        document.getElementById('ket_qua').innerHTML = 'Điểm tổng: ' + tong.toFixed(1) + '<br>' + 'Điểm trung bình: ' + trungBinh.toFixed(1);
+    }
+</script>
+</body>
+</html>

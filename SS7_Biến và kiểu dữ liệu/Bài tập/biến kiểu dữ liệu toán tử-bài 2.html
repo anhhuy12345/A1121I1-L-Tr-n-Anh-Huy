@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bìa tập 2</title>
+</head>
+<body>
+<form action="#" method="post">
+    <label for="doC">Nhập độ C</label>
+    <input type="number" id="doC"><br>
+    <button type="button" onclick="kiem_tra_C();">Kiểm tra độ F</button>
+    <div id="ket_qua_C"></div>
+</form>
+<script>
+    function kiem_tra_C () {
+        let C = parseInt(document.getElementById('doC').value);
+        let F = (9*C)/5 + 32;
+        document.getElementById('ket_qua_C').innerHTML = 'Độ F = ' + F.toFixed(0);
+    }
+</script>
+</body>
+</html>

@@ -20,16 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c74053f4-0a4c-4868-b0fc-67a624548de6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ss9_cấu trúc điều kiện 2/Bài tập/Bài tập máy tính đơn giản.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss9_cấu trúc điều kiện 2/Bài tập/cấu trúc điều kiện 1-bài 2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss9_cấu trúc điều kiện 2/Bài tập/cấu trúc điều kiện 1-bài 3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss9_cấu trúc điều kiện 2/Bài tập/cấu trúc điều kiện 1-bài 4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss9_cấu trúc điều kiện 2/Bài tập/cấu trúc điều kiện 1-bài 5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss9_cấu trúc điều kiện 2/Bài tập/cấu trúc điều kiện 1-bài 6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss9_cấu trúc điều kiện 2/Bài tập/cấu trúc điều kiện 1-bài 7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss9_cấu trúc điều kiện 2/Bài tập/luyện tập cấu trúc điều kiện 1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SS7_Biến và kiểu dữ liệu/Bài tập/biến kiểu dữ liệu toán tử-bài 2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SS7_Biến và kiểu dữ liệu/Bài tập/biến kiểu dữ liệu toán tử.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss9_cấu trúc điều kiện 2/Bài tập/bài tập câu lện swich case.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss9_cấu trúc điều kiện 2/Bài tập/bài tập câu lện swich case.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +62,7 @@
       <updated>1638800015190</updated>
       <workItem from="1638800016989" duration="92000" />
       <workItem from="1639032086638" duration="41000" />
-      <workItem from="1639032140538" duration="50184000" />
+      <workItem from="1639032140538" duration="50805000" />
     </task>
     <servers />
   </component>

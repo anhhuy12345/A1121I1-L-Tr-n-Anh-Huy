@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 3+4</title>
+</head>
+<body>
+<form action="#" method="post">
+    <label style="font-weight: bold">Chọn giá trị nhập</label><br>
+    <input type="radio" id="d" onclick="cased();"> <lable for="d">Đường kính</lable>
+    <input type="radio" id="r" onclick="caser();"> <lable for="r">Bán kính</lable>
+    <input type="radio" id="C" onclick="caseC();"> <lable for="C">Chu vi</lable>
+    <input type="radio" id="S" onclick="caseS();"> <lablel for="S">Diện tích</lablel>
+    <div id="ket_qua_tinh"></div>
+</form>
+<script>
+    function cased() {let input_d = parseInt(prompt('Mời nhập đường kính'));
+        let Cd = input_d*3.14;
+        let Sd = Math.pow(input_d/2,2)*3.14;
+        document.getElementById('ket_qua_tinh').innerHTML = 'Chu vi hình tròn = '+ Cd.toFixed(1) +'<br>'+'Diện tích hình tròn = ' + Sd.toFixed(1);
+    }
+    function caser() {let input_r = parseInt(prompt('Mời nhập bán kính'));
+        let Cr = (input_r*2)*3.14;
+        let Sr = Math.pow(input_r,2)*3.14;
+        document.getElementById('ket_qua_tinh').innerHTML = 'Chu vi hình tròn = '+ Cr.toFixed(1) +'<br>'+'Diện tích hình tròn = ' + Sr.toFixed(1);
+    }
+    function caseC() {let input_C = parseInt(prompt('Mời nhập chu vi'));
+        let tinh_r = input_C/(2*3.14);
+        let SC = Math.pow(tinh_r,2)*3.14;
+        document.getElementById('ket_qua_tinh').innerHTML = 'Diện tích hình tròn = ' + SC.toFixed(1);
+    }
+    function caseS() {let input_S = parseInt(prompt('Mời nhập diện tích'));
+        let tinh_d = Math.sqrt(input_S/3.14)*2;
+        let CS = tinh_d*3.14;
+        document.getElementById('ket_qua_tinh').innerHTML = 'Chu vi hình tròn = '+ CS.toFixed(1);
+    }
+
+</script>
+</body>
+</html>
