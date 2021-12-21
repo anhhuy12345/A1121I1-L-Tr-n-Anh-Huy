@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cấu trúc điều kiện 1- bài 7</title>
+</head>
+<body>
+<form action="#" method="post">
+    <label for="goiNoiHat">Nhập số phút gọi nội hạt:</label>
+    <input type="number" id="goiNoiHat"><br>
+    <label for="goiLienTinh">Nhập số phút gọi liên tỉnh</label>
+    <input type="number" id="goiLienTinh">
+    <select id="mang">
+        <option>Nội mạng</option>
+        <option>Ngoại mạng</option>
+    </select>
+    <br>
+    <button type="button" onclick="kiem_tra_cuoc()">Kiểm tra cước phí</button>
+</form>
+<div id="ket_qua"></div>
+<script>
+    function kiem_tra_cuoc() {
+        let cuocThang = 22000;
+        let goiNoiHat = parseInt(document.getElementById('goiNoiHat').value);
+        let goiLienTinh = parseInt(document.getElementById('goiLienTinh').value);
+        let mang = document.getElementById('mang').value;
+        let gia_cuoc;
+        if (mang == 'Nội mạng') {
+            gia_cuoc = cuocThang + (goiNoiHat * 220) + (goiLienTinh * 790);
+        } else {
+            gia_cuoc = cuocThang + (goiNoiHat * 220) + (goiLienTinh * 1000);
+        }
+        document.getElementById('ket_qua').innerText = 'Giá cước: ' + gia_cuoc;
+    }
+</script>
+</body>
+</html>
