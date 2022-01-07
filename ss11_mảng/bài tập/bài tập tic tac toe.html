@@ -2,9 +2,134 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>tic tac toe</title>
+    <title>Tic tac toe</title>
+    <style>
+        td {
+            width: 60px;
+            height: 60px;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-
+<h3>Tic tac toe</h3>
+<p id="board"></p>
+​<table border="1">
+    <tbody>
+    <tr>
+        <td onclick="changeValue(0,0)"></td>
+        <td onclick="changeValue(0,1)"></td>
+        <td onclick="changeValue(0,2)"></td>
+        <td onclick="changeValue(0,3)"></td>
+        <td onclick="changeValue(0,4)"></td>
+    </tr>
+    <tr>
+        <td onclick="changeValue(1,0)"></td>
+        <td onclick="changeValue(1,1)"></td>
+        <td onclick="changeValue(1,2)"></td>
+        <td onclick="changeValue(1,3)"></td>
+        <td onclick="changeValue(1,4)"></td>
+    </tr>
+    <tr>
+        <td onclick="changeValue(2,0)"></td>
+        <td onclick="changeValue(2,1)"></td>
+        <td onclick="changeValue(2,2)"></td>
+        <td onclick="changeValue(2,3)"></td>
+        <td onclick="changeValue(2,4)"></td>
+    </tr>
+    <tr>
+        <td onclick="changeValue(3,0)"></td>
+        <td onclick="changeValue(3,1)"></td>
+        <td onclick="changeValue(3,2)"></td>
+        <td onclick="changeValue(3,3)"></td>
+        <td onclick="changeValue(3,4)"></td>
+    </tr>
+    <tr>
+        <td onclick="changeValue(4,0)"></td>
+        <td onclick="changeValue(4,1)"></td>
+        <td onclick="changeValue(4,2)"></td>
+        <td onclick="changeValue(4,3)"></td>
+        <td onclick="changeValue(4,4)"></td>
+    </tr>
+    </tbody>
+</table>
+</p>
+<script>
+    let board = document.getElementById("board");
+    let arr = [];
+    let data = "";
+    let checkPlayer = true;
+​
+    function addArray(array) {
+        for (let i = 0; i < 5; i++) {
+            array[i] = Array("", "", "", "", "");
+        }
+    }
+​
+    function displayBoard() {
+        data = "<table border='1'>";
+        for (let i = 0; i < 5; i++) {
+            data += "<tr>";
+            for (let j = 0; j < 5; j++) {
+                data += "<td onclick='changeValue(" + i + "," + j + ")'>" + arr[i][j] + "</td>"
+            }
+            data += "</tr>";
+        }
+        data += "</table>";
+        board.innerHTML = data;
+    }
+​
+    function changeValue(x, y) {
+        if (checkPlayer && checkExist(x, y)) {
+            arr[x][y] = "X";
+            checkPlayer = false;
+            if (checkWin("X")) {
+                alert("Player X win");
+            }
+        } else if (!checkPlayer && checkExist(x, y)){
+            arr[x][y] = "O";
+            checkPlayer = true;
+            if (checkWin("O")) {
+                alert("Player O win");
+            }
+        }
+        displayBoard();
+    }
+​
+    function checkExist(x, y) {
+        if (arr[x][y] !== ""){
+            alert("Error!!");
+            return false;
+        }
+        return true;
+    }
+​
+    function checkWin(player) {
+        for (let i = 0; i < 5; i++) {
+            for (let j = 0; j < 5; j++) {
+                if (arr[i][j] === player) {
+                    if (arr[i][j + 1] === player && arr[i][j + 2] === player) {
+                        return true;
+                    }
+​
+                    if (arr[i + 1][j] === player && arr[i + 2][j] === player) {
+                        return true;
+                    }
+​
+                    if (arr[i + 1][j + 1] === player && arr[i + 2][j + 2] === player) {
+                        return true;
+                    }
+​
+                    if (arr[i + 1][j - 1] === player && arr[i + 2][j - 2] === player) {
+                        return true;
+                    }
+                }
+            }
+        }
+    }
+​
+    addArray(arr);
+    displayBoard();
+</script>
 </body>
 </html>
