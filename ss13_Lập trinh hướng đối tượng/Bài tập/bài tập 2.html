@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    class Rectangle {
+        constructor(Dai, Rong) {
+            this.Dai = Dai;
+            this.Rong = Rong;
+        }
+        Chuvi(){
+            return (this.Dai +this.Rong)*2
+        }
+        Dientich(){
+            return this.Dai * this.Rong
+        }
+    display(){
+            document.write("Hình Chữ Nhật Có Chiều Dài "+ this.Dai +" và Chiều Rộng "+ this.Rong +" Thì Chu Vi Là "+ this.Chuvi() +" Diện Tích Là " + this.Dientich())
+    }
+    }
+    let inputDai = parseInt(prompt("Nhập chiều dài"));
+    let inputRong = parseInt(prompt("Nhap chiều rộng"));
+    let recTangle = new Rectangle(inputDai, inputRong)
+    recTangle.display()
+
+</script>
+
+</body>
+</html>

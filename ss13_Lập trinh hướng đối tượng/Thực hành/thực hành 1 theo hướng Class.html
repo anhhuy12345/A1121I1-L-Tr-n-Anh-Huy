@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>xây dựng lớp MyDate</title>
+</head>
+<body>
+<script>
+    class MyDate {
+        constructor(day, month, Year) {
+            this.day = day;
+            this.month = month;
+            this.Year = Year;
+        }
+
+        ngaythangnam() {
+            alert(this.day + "/" + this.month + "/" + this.Year);
+        }
+    }
+    let date = new MyDate(2, 2, 2017)
+    date.ngaythangnam();
+
+</script>
+
+</body>
+</html>

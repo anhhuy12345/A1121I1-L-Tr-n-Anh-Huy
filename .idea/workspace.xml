@@ -20,8 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c74053f4-0a4c-4868-b0fc-67a624548de6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ss12 Hàm/Bài tập/bài luyện tập hàm 1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss11_mảng/bài tập/bài tập tic tac toe.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss11_mảng/bài tập/bài tập tic tac toe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss12 Hàm/Bài tập/bài tập 2.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss12 Hàm/Bài tập/bài tập 2.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +62,7 @@
       <updated>1638800015190</updated>
       <workItem from="1638800016989" duration="92000" />
       <workItem from="1639032086638" duration="41000" />
-      <workItem from="1639032140538" duration="87818000" />
+      <workItem from="1639032140538" duration="107977000" />
     </task>
     <servers />
   </component>
@@ -84,6 +85,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="560" y="178" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1638800101575" />
+    <state x="834" y="80" width="615" height="849" key="dock-window-1" timestamp="1641821607492">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="834" y="80" width="615" height="849" key="dock-window-1/0.0.1536.864@0.0.1536.864" timestamp="1641821607492" />
     <state x="437" y="201" key="run.anything.popup" timestamp="1639576262487">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
